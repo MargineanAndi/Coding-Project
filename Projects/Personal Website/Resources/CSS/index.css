@@ -270,7 +270,9 @@ header {
   padding: 5px;
   height: 26px;
   width: 50px;
-  
+  margin-top: 15px;
+  margin-left: 1775px;
+    
 }
 
 .checkbox {
@@ -297,6 +299,8 @@ header {
   left: 2px;
   border-radius: 50%;
   transition: 0.2s linear;
+  margin-top: 15px;
+  margin-left: 1775px;
 }
 
 .checkbox:checked + .label .ball {

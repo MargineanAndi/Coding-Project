@@ -279,7 +279,7 @@ header {
 }
 
 .fa-moon {
-  color: var(--clr-light);
+  color: var(--clr-dark);
   justify-content: space-between;
 }
 
@@ -301,6 +301,7 @@ header {
 
 .checkbox:checked + .label .ball {
   transform: translateX(24px);
+  background-color: var(--clr-dark);
 }
 
 

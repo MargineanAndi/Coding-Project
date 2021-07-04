@@ -271,13 +271,13 @@ header {
   height: 26px;
   width: 50px;
   margin-top: 15px;
-  margin-left: 1775px;
-    
+  margin-left: 93.3%;;
 }
 
 .checkbox {
   opacity: 0;
   position: absolute;
+  display: flex;
 }
 
 .fa-moon {
@@ -295,17 +295,30 @@ header {
   height: 22px;
   background: var(--clr-light);
   position: absolute;
+  display: flex;
   top: 2px;
   left: 2px;
   border-radius: 50%;
   transition: 0.2s linear;
   margin-top: 15px;
-  margin-left: 1775px;
+  margin-left: 93.3%;
 }
 
 .checkbox:checked + .label .ball {
   transform: translateX(24px);
   background-color: var(--clr-dark);
+  display: flex;
+}
+
+@media (min-width: 600px){
+  .header .darkmode .label .checkbox {
+    display:flex;
+    width: min-content;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
 }
 
 
